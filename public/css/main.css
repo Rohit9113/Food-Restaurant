@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    background: linear-gradient(90deg, rgba(184, 163, 186, 1) 9%, rgba(5, 5, 5, 1) 32%, rgba(110, 130, 90, 1) 62%, rgba(110, 29, 164, 1) 82%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#myheadtxt,#signUpHead{
+    color: white;
+}
+
+.loginCard {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .loginCard {
+        width: 100%;
+    }
+
+    .input-group {  
+        height: 8%;
+    }
+}
+
+#loginmail::placeholder,#pin::placeholder,#state::placeholder,#city::placeholder,#phone::placeholder,#username::placeholder, #mail::placeholder, #name::placeholder, #DOB::placeholder, #password::placeholder, #confirmPassword::placeholder,#address::placeholder {
+    color: white;
+}
+
+#loginmail,#state,#city,#name,#username,#pin,#DOB,#newpassword,#confirmPassword,#phone,#address{
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    border-left: 1px solid white;
+}
+#loginpassword::placeholder, #password::placeholder,#confirmPassword::placeholder {
+    color: white;
+}
+#loginpassword,#password{
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    border-left: 1px solid white;
+}
+
+.btn:hover{
+    color: white !important;
+    background-color: black !important;
+}
